@@ -1,0 +1,68 @@
+Core API Group
+api/v1
+api/v1/namespaces/{namespace}/pods
+api/v1/namespaces/{namespace}/services
+api/v1/namespaces
+api/v1/nodes
+api/v1/namespaces/{namespace}/configmaps
+api/v1/namespaces/{namespace}/secrets
+api/v1/persistentvolumes
+api/v1/namespaces/{namespace}/persistentvolumeclaims
+api/v1/nodes
+api/v1/namespaces
+api/v1/pods
+api/v1/services
+api/v1/serviceaccounts
+api/v1/configmaps
+api/v1/secrets
+api/v1/persistentvolumes
+api/v1/persistentvolumeclaims
+
+Named API Groups
+These are extensions to the core API and provide additional functionality.
+apis/apps/v1/namespaces/{namespace}/deployments
+apis/apps/v1/namespaces/{namespace}/replicasets
+apis/apps/v1/namespaces/{namespace}/statefulsets
+apis/apps/v1/namespaces/{namespace}/daemonsets
+
+Apps API Group
+apis/apps/v1/deployments
+apis/apps/v1/replicasets
+apis/apps/v1/statefulsets
+apis/apps/v1/daemonsets
+
+Batch API Group
+apis/batch/v1/jobs
+apis/batch/v1beta1/cronjobs
+Networking API Group
+apis/networking.k8s.io/v1/ingresses
+apis/networking.k8s.io/v1/networkpolicies
+
+RBAC API Group
+apis/rbac.authorization.k8s.io/v1/roles
+apis/rbac.authorization.k8s.io/v1/rolebindings
+apis/rbac.authorization.k8s.io/v1/clusterroles
+apis/rbac.authorization.k8s.io/v1/clusterrolebindings
+
+Autoscaling API Group
+apis/autoscaling/v1/horizontalpodautoscalers
+
+Policy API Group
+apis/policy/v1beta1/poddisruptionbudgets
+apis/policy/v1beta1/podsecuritypolicies
+
+Storage API Group
+apis/storage.k8s.io/v1/storageclasses
+apis/storage.k8s.io/v1/volumeattachments
+
+CRD API Group
+apis/apiextensions.k8s.io/v1/customresourcedefinitions
+Metrics API (If Enabled)
+apis/metrics.k8s.io/v1beta1/pods
+apis/metrics.k8s.io/v1beta1/nodes
+Health and Version Endpoints
+healthz
+version
+api
+apis
+api/v1/namespaces/default/pods
